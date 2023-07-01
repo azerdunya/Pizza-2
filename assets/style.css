@@ -1,0 +1,1092 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+/* font-family: 'Montserrat', sans-serif; */
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.text_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 181px;
+    height: 55px;
+    border-radius: 1.5rem;
+    background-color: #f1ae0e;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.text_button a{
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text_button:hover{
+    background-color: #d89a0a;
+}
+
+.text_button:hover a{
+    color: #000;
+}
+
+main {
+    background-color: #f9f6ee;
+}
+
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li{
+    list-style: none;
+    text-transform: uppercase;
+}
+
+header ul li a{
+    margin: 0 15px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #111;
+}
+
+header ul li a:hover {
+    color: #f1ae0e;
+}
+
+header ul li:nth-child(1) a{
+    color: #f1ae0e;
+}
+
+main .home {
+    width: 100%;
+    height: 800px;
+}
+
+main .home .home_content{
+    width: 100%;
+    height: 680px;
+    background-image: url(image/vegetables-set-left-black-slate\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 3rem;
+    margin: 30px 0;
+}
+
+main .home .home_content .home_text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 30px;
+}
+
+main .home .home_content .home_text .circle_logo{
+    width: 225px;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 100%;
+    background-color: #99e54d;
+    color: #111;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+main .home .home_content .home_text .circle_logo .logo_title{
+    font-size: 60px;
+    letter-spacing: 1px;
+    margin: 50px 0 15px 0;
+}
+
+main .home .home_content .home_text .circle_logo .logo_subtitle{
+    width: 150px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+main .home .home_content .home_text .text_title,
+main .home .home_content .home_text .text_link,
+main .home .home_content .home_text .text_subtitle {
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0 0 25px 0;
+}
+
+main .home .home_content .home_text .text_link {
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+main .home .home_content .home_text .text_link span a{
+    text-decoration: none;
+    color: #99e54d;
+    padding: 0 5px;
+}
+
+main .home .home_content .home_text .text_subtitle {
+    font-size: 60px;
+    width: 450px;
+}
+
+
+
+main .menu {
+    width: 100%;
+    height: 700px;
+}
+
+main .menu .menu_content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main .menu .menu_content .menu_title{
+    font-size: 48px;
+    color: #111;
+    font-weight: 700;
+    width: 100%;
+    height: 70px;
+    margin: 40px 0 30px 0;
+}
+
+main .menu .menu_content .menu_boxs{
+    width: 100%;
+    height: 398px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+}
+
+main .menu .menu_content .menu_boxs .menu_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+main .menu .menu_content .menu_boxs .menu_box .box_image{
+    width: 207px;
+    height: 239px;
+}
+
+main .menu .menu_content .menu_boxs .menu_box .box_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 1.5rem;
+}
+
+main .menu .menu_content .menu_boxs .menu_box .box_title{
+    font-size: 18px;
+    color: #111;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 20px 0;
+}
+
+main .menu .menu_content .menu_link{
+    font-size: 18px;
+    color: #000;
+    font-weight: 300;
+    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin: 40px 0;
+}
+
+main .menu .menu_content .menu_link span a{
+    color: #f1ae0e;
+    font-weight: 700;
+    margin: 0 5px;
+}
+
+main .menu .menu_content .menu_boxs .menu_box .text_button:hover a{
+    color: #ffffff;
+}
+
+main .contact {
+    width: 100%;
+    background-color: #99e54d;
+}
+
+main .contact .contact_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 415px;
+}
+
+main .contact .contact_content .contact_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 263px;
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+}
+
+main .contact .contact_content .contact_text .contact_title{
+    font-size: 48px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 40px 0 15px 0;
+}
+
+main .contact .contact_content .contact_text .contact_subtitle{
+    font-size: 18px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+main .contact .contact_content .contact_text .contact_nomer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 30px 0 0 0;
+
+}
+
+main .contact .contact_content .contact_text .contact_nomer span{
+    margin: 0 20px;
+    font-size: 45px;
+    color: #f1ae0e;
+}
+
+main .restaurant {
+    width: 100%;
+}
+
+main .restaurant .restaurant_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 776px;
+    
+}
+
+main .restaurant .restaurant_content .restaurant_text{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 670px;
+    background-image: url(image/fresh-salad-with-turkey-eggs-vegetables.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.25rem;
+}
+
+
+
+main .restaurant .restaurant_content .restaurant_text .restaurant_info {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 100%;
+    height: fit-content;
+    padding: 40px 30px;
+}
+
+main .restaurant .restaurant_content .restaurant_text .restaurant_info .info_title,
+main .restaurant .restaurant_content .restaurant_text .restaurant_info .info_subtitle,
+main .restaurant .restaurant_content .restaurant_text .restaurant_info .info_link{
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 0 0 25px 0;
+}
+
+main .restaurant .restaurant_content .restaurant_text .restaurant_info .info_subtitle {
+    font-size: 48px;
+    width: 400px;
+}
+
+main .restaurant .restaurant_content .restaurant_text .restaurant_info .info_link {
+    width: 370px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+main .restaurant .restaurant_content .restaurant_text .restaurant_info .info_link span a{
+    text-decoration: none;
+    color: #f1ae0e;
+    padding: 0 5px;
+}
+
+main .restaurant .restaurant_content .restaurant_text .restaurant_info .text_button:hover a{
+    color: #ffffff;
+}
+
+main .email {
+    width: 100%;
+    background-color: #f1ae0e;
+}
+
+main .email .email_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 420px;
+}
+
+main .email .email_content .email_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 270px;
+    background-color: #fff;
+    border-radius: 1.5rem;
+}
+
+main .email .email_content .email_text .email_title{
+    font-size: 48px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 40px 0 15px 0;
+}
+
+main .email .email_content .email_text .email_subtitle{
+    font-size: 18px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+main .email .email_content .email_text .email_contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 0 0;
+}
+
+main .email .email_content .email_text .email_contact input{
+    width: 420px;
+    height: 50px;
+    border-radius: 1.25rem;
+    outline: none;
+    border: 2px solid #000;
+    padding: 10px 12px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+main .email .email_content .email_text .email_contact .email_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 50px;
+    border-radius: 1.5rem;
+    background-color: #99e54d;
+    margin: 0 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: 1px;
+}
+
+main .email .email_content .email_text .email_contact .email_button:hover{
+    background-color: #8fd14c;
+    transition: all 0.5s ease-in-out;
+}
+
+main .restaurant .restaurant_content .restaurant_text_2{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 670px;
+    background-image: url(image/juicy-steak-medium-rare-beef-with-spices-grilled-vegetables.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.25rem;
+}
+
+
+
+main .restaurant .restaurant_content .restaurant_text_2 .restaurant_info {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 100%;
+    height: fit-content;
+    padding: 40px 30px;
+}
+
+main .restaurant .restaurant_content .restaurant_text_2 .restaurant_info .info_title,
+main .restaurant .restaurant_content .restaurant_text_2 .restaurant_info .info_subtitle,
+main .restaurant .restaurant_content .restaurant_text_2 .restaurant_info .info_link{
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 0 0 25px 0;
+}
+
+main .restaurant .restaurant_content .restaurant_text_2 .restaurant_info .info_subtitle {
+    font-size: 48px;
+    width: 400px;
+}
+
+main .restaurant .restaurant_content .restaurant_text_2 .restaurant_info .info_link {
+    width: 370px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+main .restaurant .restaurant_content .restaurant_text_2 .restaurant_info .info_link span a{
+    text-decoration: none;
+    color: #f1ae0e;
+    padding: 0 5px;
+}
+
+main .restaurant .restaurant_content .restaurant_text_2 .restaurant_info .text_button:hover a{
+    color: #ffffff;
+}
+
+
+main .login {
+    width: 100%;
+}
+
+
+main .login .login_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 742px;
+}
+
+main .login .login_content .login_text{
+    display: flex;
+    width: 100%;
+    height: 620px;
+    background-color: #fff;
+    border-radius: 1.5rem;
+}
+
+main .login .login_content .login_text .col_1,
+main .login .login_content .login_text .col_2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+main .login .login_content .login_text .col_1 .circle_logo{
+    width: 225px;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 100%;
+    background-color: #99e54d;
+    color: #111;
+    font-weight: 700;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main .login .login_content .login_text .col_1 .circle_logo .logo_title{
+    font-size: 60px;
+    letter-spacing: 1px;
+    margin: 50px 0 15px 0;
+}
+
+main .login .login_content .login_text .col_1 .circle_logo .logo_subtitle{
+    width: 150px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+main .login .login_content .login_text .col_1 .circle_link{
+    font-size: 18px;
+    color: #000;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    margin: 30px 40px;
+}
+
+main .login .login_content .login_text .col_1 .circle_link span a{
+    color: #8fd14c;
+    font-weight: 700;
+    margin: 0 5px;
+}
+
+main .login .login_content .login_text .col_1 .circle_title{
+    font-size: 60px;
+    color: #000;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin: 15px 40px;
+}
+
+main .login .login_content .login_text .col_1 .text_button{
+    margin: 15px 40px;
+}
+
+
+main .login .login_content .login_text .col_1 .text_button:hover a{
+    color: #ffffff;
+}
+
+main .login .login_content .login_text .col_2 .small_col {
+    display: flex;
+    align-items: center;
+    width: 450px;
+    height: 34%;
+}
+
+main .login .login_content .login_text .col_2 .small_col .small_circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 67px;
+    height: 67px;
+    background-color: #99e54d;
+    border-radius: 100%;
+    color: #000;
+    font-size: 30px;
+}
+
+main .login .login_content .login_text .col_2 .small_col .small_text {
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+}
+
+main .login .login_content .login_text .col_2 .small_col .small_text .small_title,
+main .login .login_content .login_text .col_2 .small_col .small_text .small_subtitle,
+main .login .login_content .login_text .col_2 .small_col .small_text .small_link{
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main .login .login_content .login_text .col_2 .small_col .small_text .small_subtitle{
+    margin: 10px 0 0 0;
+}
+
+main .login .login_content .login_text .col_2 .small_col .small_text .small_link {
+    color: #f1ae0e;
+    font-weight: 500;
+    margin: 10px 0 0 0;
+}
+
+
+
+
+
+header button.opensidebar {
+    display: none;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+header .sidebar {
+    display: none;
+}
+
+
+
+
+
+@media (max-width:1024px) {
+    .container {
+        padding: 0 64px;
+    }
+
+    main .home .home_content {
+        background-position: right;
+    }
+
+    main .home .home_content .home_text .text_subtitle {
+        font-size: 48px;
+        width: 400px;
+    }
+
+    main .menu{
+        height: fit-content;
+    }
+
+    main .menu .menu_content {
+        height: fit-content;
+    }
+
+    main .menu .menu_content .menu_boxs{
+        height: fit-content;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 60px;
+        column-gap: 20px;
+    }
+
+    main .menu .menu_content .menu_boxs .menu_box .box_image {
+        width: 355px;
+        height: 387px;
+    }
+
+    main .restaurant .restaurant_content .restaurant_text{
+        background-position: 30%;
+    }
+
+    main .restaurant .restaurant_content .restaurant_text_2{
+        background-position: 30%;
+    }
+
+    main .login .login_content .login_text {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        width: 100%;
+    }
+
+    main .login .login_content {
+        height: fit-content;
+    }
+
+    main .login .login_content .login_text .col_2 .small_col {
+        margin: 20px 40px;
+    }
+
+    main .login .login_content .login_text .col_1, main .login .login_content .login_text .col_2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+@media (max-width:860px) {
+    main .menu .menu_content .menu_boxs{
+        height: fit-content;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 60px;
+        column-gap: 20px;
+    }
+
+    main .home .home_content {
+        background-position: 80%;
+    }
+
+    main .home .home_content .home_text .text_subtitle {
+        font-size: 38px;
+        width: 300px;
+    }
+
+    main .menu .menu_content .menu_boxs .menu_box .box_image {
+        width: 570px;
+        height: 578px;
+    }
+
+    main .contact .contact_content .contact_text .contact_title {
+        font-size: 38px;
+    }
+
+    main .contact .contact_content .contact_text .contact_subtitle {
+        font-size: 16px;
+    }
+
+    main .contact .contact_content .contact_text .contact_nomer {
+        font-size: 30px;
+    }
+
+    main .contact .contact_content .contact_text .contact_nomer span {
+        font-size: 38px;
+    }
+
+    main .email .email_content .email_text .email_title {
+        font-size: 38px;
+    }
+
+    main .email .email_content .email_text .email_subtitle {
+        font-size: 16px;
+    }
+
+    main .email .email_content .email_text .email_contact input {
+        width: 340px;
+        font-size: 16px;
+    }
+    
+    main .login .login_content .login_text .col_2 .small_col .small_text .small_title, main .login .login_content .login_text .col_2 .small_col .small_text .small_subtitle, main .login .login_content .login_text .col_2 .small_col .small_text .small_link {
+        font-size: 14px;
+    }
+
+    main .login .login_content .login_text .col_2 .small_col {
+        width: 100%;
+    }
+
+    main .login .login_content .login_text .col_2 .small_col .small_circle {
+        width: 57px;
+        height: 57px;
+        font-size: 25px;
+    }
+    
+}
+
+@media (max-width:670px) {
+
+    main .home .home_content {
+        background-position: 75%;
+    }
+
+    main .menu .menu_content .menu_title {
+        font-size: 28px;
+    }
+
+    main .menu .menu_content .menu_boxs .menu_box .box_image {
+        width: 320px;
+        height: 356px;
+    }
+
+    main .contact .contact_content .contact_text .contact_title {
+        font-size: 30px;
+    }
+
+    main .contact .contact_content .contact_text .contact_subtitle {
+        font-size: 14px;
+    }
+
+    main .contact .contact_content .contact_text .contact_nomer {
+        font-size: 25px;
+    }
+
+    main .contact .contact_content .contact_text .contact_nomer span {
+        font-size: 30px;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    header button.opensidebar {
+        display: block;
+        font-size: 28px;
+    }
+
+    header .sidebar {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 230px;
+        height: 100vh;
+        background-color: #000;
+        transition: all 1s ease;
+    }
+
+    header .sidebar.active {
+        left: 0;
+    }
+
+
+    header .sidebar .bar_icon{
+        position: absolute;
+        color: #fff;
+        font-size: 35px;
+        top: 20px;
+        left: 80%;
+    }
+
+    header .sidebar .sidebar_links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 300px;
+        text-transform: uppercase;
+        margin: 80px 0 0 0;
+    }
+
+    header .sidebar .sidebar_links a{
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+
+    header .sidebar .sidebar_links a:nth-child(1){
+        color: #f1ae0e;
+    }
+
+    header .sidebar .sidebar_links a:hover{
+        color: #f1ae0e;
+        border-bottom: 1px solid #f1ae0e;
+    }
+
+    main .restaurant .restaurant_content .restaurant_text {
+        background-position: 20%;
+    }
+    
+    main .restaurant .restaurant_content .restaurant_text .restaurant_info .info_subtitle {
+        font-size: 35px;
+        width: 300px;
+    }
+
+    main .restaurant .restaurant_content .restaurant_text .restaurant_info .info_link {
+        width: 300px;
+        font-size: 16px;
+    }
+
+    main .restaurant .restaurant_content .restaurant_text_2 {
+        background-position: 20%;
+    }
+    
+    main .restaurant .restaurant_content .restaurant_text_2 .restaurant_info .info_subtitle {
+        font-size: 35px;
+        width: 300px;
+    }
+
+    main .restaurant .restaurant_content .restaurant_text_2 .restaurant_info .info_link {
+        width: 300px;
+        font-size: 16px;
+    }
+
+    main .email .email_content .email_text .email_title {
+        font-size: 25px;
+    }
+
+    main .email .email_content .email_text .email_contact input {
+        width: 220px;
+        font-size: 13px;
+    }
+
+    main .email .email_content .email_text .email_subtitle {
+        font-size: 14px;
+    }
+
+    main .email .email_content .email_text .email_contact .email_button {
+        width: 100px;
+        font-size: 14px;
+        margin: 0 8px;
+    }
+
+    main .login .login_content .login_text .col_1 .circle_title {
+        font-size: 35px;
+    }
+
+    main .login .login_content .login_text .col_2 .small_col {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    main .login .login_content .login_text .col_2 .small_col .small_text {
+        margin: 20px 0;
+    }
+}
+
+@media (max-width:470px) {
+
+    .container {
+        padding: 0 32px;
+    }
+
+    main .home .home_content .home_text {
+        padding: 0 20px;
+    }
+
+    main .home .home_content {
+        background-position: 80%;
+    }
+
+    main .home .home_content .home_text .circle_logo {
+        width: 180px;
+        height: 180px;
+    }
+
+    main .home .home_content .home_text .circle_logo .logo_title {
+        font-size: 45px;
+    }
+
+    main .home .home_content .home_text .circle_logo .logo_subtitle {
+        width: 130px;
+        font-size: 16px;
+    }
+
+    main .home .home_content .home_text .text_title, main .home .home_content .home_text .text_link, main .home .home_content .home_text .text_subtitle {
+        font-size: 16px;
+    }
+
+    main .home .home_content .home_text .text_subtitle {
+        font-size: 32px;
+        width: 100%;
+    }
+
+    main .contact .contact_content .contact_text .contact_title {
+        font-size: 18px;
+    }
+
+    main .contact .contact_content .contact_text .contact_subtitle {
+        width: 200px;
+        line-height: 25px;
+    }
+
+    main .contact .contact_content .contact_text .contact_nomer {
+        font-size: 16px;
+    }
+
+    main .contact .contact_content .contact_text .contact_nomer span {
+        font-size: 20px;
+    }
+
+    main .menu .menu_content .menu_link {
+        font-size: 16px;
+    }
+
+    main .menu .menu_content .menu_boxs .menu_box .box_image {
+        width: 230px;
+        height: 300px;
+    }
+
+    main .restaurant .restaurant_content .restaurant_text .restaurant_info .info_subtitle {
+        font-size: 28px;
+        width: 250px;
+    }
+
+    main .restaurant .restaurant_content .restaurant_text .restaurant_info .info_link {
+        width: 230px;
+        font-size: 16px;
+    }
+
+    main .restaurant .restaurant_content .restaurant_text {
+        background-position: 25%;
+    }
+
+    main .restaurant .restaurant_content .restaurant_text_2 .restaurant_info .info_subtitle {
+        font-size: 28px;
+        width: 250px;
+    }
+
+    main .restaurant .restaurant_content .restaurant_text_2 .restaurant_info .info_link {
+        width: 230px;
+        font-size: 16px;
+    }
+
+    main .restaurant .restaurant_content .restaurant_text_2 {
+        background-position: 25%;
+    }
+
+    main .email .email_content .email_text .email_title {
+        font-size: 18px;
+    }
+
+    main .email .email_content .email_text .email_subtitle {
+        font-size: 14px;
+        width: 200px;
+        text-align: center;
+    }
+    
+    main .email .email_content .email_text .email_contact input {
+        width: 150px;
+        font-size: 9px;
+        height: 45px;
+    }
+
+    main .email .email_content .email_text .email_contact .email_button {
+        width: 80px;
+        font-size: 12px;
+        margin: 0 8px;
+        height: 45px;
+    }
+
+    main .login .login_content .login_text .col_2 .small_col {
+        width: 80%;
+    }
+
+    main .login .login_content .login_text .col_1 .circle_logo{
+        width: 180px;
+        height: 180px;
+    }
+
+    main .login .login_content .login_text .col_1 .circle_logo .logo_title {
+        font-size: 45px;
+    }
+
+    main .login .login_content .login_text .col_1 .circle_logo .logo_subtitle {
+        font-size: 16px;
+    }
+
+    main .login .login_content .login_text .col_1 .circle_title {
+        font-size: 30px;
+    }
+    
+}
+
+
+
+
+
+
+
+
